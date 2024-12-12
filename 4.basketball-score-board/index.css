@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url('/basketball-score-board/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-style: verdana;
+    color: white;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    padding: 10px; 
+    font-family: 'Cursed Timer', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color:#1B244A ;
+    width: 575px;
+    height: 385px;   
+}
+
+button {
+    background: none;
+    color: aliceblue;
+    font-family: 'Cursed Timer', sans-serif;
+}
