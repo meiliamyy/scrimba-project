@@ -1,19 +1,18 @@
 @font-face {
     font-family: 'Cursed Timer';
-    src: url('/basketball-score-board/CursedTimerUlil-Aznm.ttf') format('truetype');
+    src: url('./CursedTimerUlil-Aznm.ttf') format('truetype');
 }
 
 body {
     margin: 0;
     text-align: center;
-    font-style: verdana;
+    font-style: cursed;
     color: white;
     margin: 0;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .score {
@@ -44,3 +43,24 @@ button {
     color: aliceblue;
     font-family: 'Cursed Timer', sans-serif;
 }
+
+.reset-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+        
+}
+
+#reset {
+    font-size: 16px; /* Optional: adjust the button size */
+    padding: 10px 20px; /* Optional: add some spacing */
+    background-color: #333; /* Example: dark background */
+    color: white; /* Example: white text */
+    border: none; /* Optional: remove default border */
+    cursor: pointer; /* Change cursor to pointer */
+  }
