@@ -11,8 +11,12 @@ let cardsEl = document.getElementById("cards-el")
 
 let player = {
     name: "Meilia",
-    chips: 145
+    chips: 145,
+    sayHello: function() {
+        console.log("Heisann!")
+    }
 }
+
 
 let playerEl = document.getElementById("player-el")
 playerEl.textContent = player.name + ": $" + player.chips
@@ -51,9 +55,10 @@ function renderGame() {
 }
 
 function newCard() {
-    console.log("Drawing a new card from the deck!")
-    let card = getRandomCard()
-    sum += card
-    cards.push(card)
-    renderGame()
+    if (isAlive === true && hasBlackJack === false) {
+        let card = getRandomCard()
+        sum += card
+        cards.push(card)
+        renderGame()        
+    }
 }
