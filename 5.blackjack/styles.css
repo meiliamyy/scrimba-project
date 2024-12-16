@@ -3,7 +3,7 @@ body {
     background-image: url("images/table.png");
     background-size: cover;
     font-weight: bold;
-    color: white;
+    color: rgb(169, 0, 0);
     text-align: center;
 }
 
