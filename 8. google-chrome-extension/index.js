@@ -29,9 +29,11 @@ function renderLeads () {
             </li>
         `
     }
-    ulEl.innerHTML = listItem
+    ulEl.innerHTML = listItems
 }
-        
+  
+
+
 
 
 
