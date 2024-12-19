@@ -3,6 +3,13 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
+// localStorage.setItem("myName", "Meilia")
+let name = localStorage.getItem("myName")
+console.log(name)
+
+// localStorage.clear()
+
+
 // function saveLead() {
 //     // console.log("Button Clicked from onclick attribute!")
 // }
