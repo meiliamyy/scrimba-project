@@ -4,8 +4,8 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 // localStorage.setItem("myName", "Meilia")
-let name = localStorage.getItem("myName")
-console.log(name)
+// let name = localStorage.getItem("myName")
+// console.log(name)
 
 // localStorage.clear()
 
@@ -19,7 +19,8 @@ inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     // console.log("Button clicked from addEventListerner")
     inputEl.value = ""
-    renderLeads()
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+    // renderLeads()
 })
 
 
