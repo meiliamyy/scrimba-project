@@ -1,0 +1,135 @@
+/* General Cover Styles */
+.cover {
+    top: 0;
+    left: 0;
+    background: rgb(168, 93, 152);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    /* background-attachment: fixed; */
+}
+
+.cover-content, .cover-container {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* Navigation Styles */
+nav {
+    background-color: #e7b3f5;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 3rem;
+    margin: 0 auto 3rem;
+    border-radius: 1rem;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    margin: 0;
+    white-space: nowrap;
+}
+
+nav ul a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+nav ul a:hover {
+    background-color: white;
+    color: #333;
+    border-radius: 0.5rem;
+    transform: translateY(-3px);
+}
+
+/* Cover Container */
+.cover-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    max-width: 90%; /* Makes it responsive for large screens */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding fits inside the container */
+}
+
+/* Cover Content */
+.cover-content {
+    flex: 1.5;
+    padding: 20px;
+}
+
+.cover-content h1 {
+    font-size: 4rem;
+    margin: 10 0 50px;
+}
+
+.cover-content p {
+    font-size: 1.25rem;
+    margin: 0 0 50px;
+}
+
+.cover-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 0 80px;
+}
+
+.cover-content button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Image */
+aside img.cover-foto {
+    flex: 1;
+    max-width: 100%; /* Responsive image scaling */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 350px; /* Optional: Limit height */
+    border-radius: 20px;
+    object-fit: cover; /* Ensures image scales proportionally */
+}
+
+/* Footer */
+.cover-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+}
+

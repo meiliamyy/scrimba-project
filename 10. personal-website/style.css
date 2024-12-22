@@ -1,0 +1,1054 @@
+.personal-portfolio {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.personal-portfolio .div {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  width: 1280px;
+  height: 4483px;
+  position: relative;
+}
+
+.personal-portfolio .overlap {
+  position: absolute;
+  width: 1280px;
+  height: 672px;
+  top: 3741px;
+  left: 0;
+  background-color: #080808;
+}
+
+.personal-portfolio .call-to-action {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 24px;
+  position: absolute;
+  top: 542px;
+  left: 465px;
+  background-color: #3e8e00;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #61b91b;
+  box-shadow: 0px 8px 30px #3f8e004c;
+}
+
+.personal-portfolio .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .vector {
+  position: relative;
+  width: 5.89px;
+  height: 10px;
+}
+
+.personal-portfolio .testimoanial-subtext {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 131px;
+  left: 355px;
+}
+
+.personal-portfolio .p {
+  position: relative;
+  width: 570px;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .testimonial-heading {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 81px;
+  left: 537px;
+}
+
+.personal-portfolio .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .password {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 300px;
+  left: 465px;
+}
+
+.personal-portfolio .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .placeholder-wrapper {
+  display: flex;
+  width: 350px;
+  height: 40px;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 12px;
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #d7d7d7;
+}
+
+.personal-portfolio .placeholder {
+  position: relative;
+  flex: 1;
+  height: 36px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .password-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 381px;
+  left: 465px;
+}
+
+.personal-portfolio .password-placeholder {
+  display: flex;
+  width: 350px;
+  height: 120px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 12px;
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #d7d7d7;
+}
+
+.personal-portfolio .placeholder-2 {
+  position: relative;
+  flex: 1;
+  height: 36px;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #757575;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .email {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 219px;
+  left: 465px;
+}
+
+.personal-portfolio .work {
+  position: absolute;
+  width: 445px;
+  height: 494px;
+  top: 3168px;
+  left: 180px;
+}
+
+.personal-portfolio .call-to-action-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 456px;
+  left: 0;
+  background-color: #3e8e00;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #61b91b;
+  box-shadow: 0px 8px 30px #3f8e004c;
+}
+
+.personal-portfolio .intro-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 388px;
+  left: 0;
+}
+
+.personal-portfolio .text-wrapper-4 {
+  position: relative;
+  width: 421px;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .work-name-here {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 340px;
+  left: 0;
+}
+
+.personal-portfolio .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .mask-group {
+  position: absolute;
+  width: 445px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.personal-portfolio .work-2 {
+  position: absolute;
+  width: 445px;
+  height: 494px;
+  top: 3168px;
+  left: 655px;
+}
+
+.personal-portfolio .img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 3400px;
+  left: 1165px;
+}
+
+.personal-portfolio .call-to-action-3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 3400px;
+  left: 85px;
+}
+
+.personal-portfolio .solving-user-wrapper {
+  top: 3036px;
+  left: 355px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .your-name-here {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 2986px;
+  left: 535px;
+}
+
+.personal-portfolio .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .div-wrapper {
+  top: 830px;
+  left: 355px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .your-name-here-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 780px;
+  left: 503px;
+}
+
+.personal-portfolio .overlap-group {
+  position: absolute;
+  width: 1280px;
+  height: 70px;
+  top: 4413px;
+  left: 0;
+  background-color: #1a1a1a;
+}
+
+.personal-portfolio .home {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  top: 26px;
+  left: 590px;
+}
+
+.personal-portfolio .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .group {
+  position: absolute;
+  width: 895px;
+  height: 300px;
+  top: 962px;
+  left: 205px;
+}
+
+.personal-portfolio .call-to-action-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 245px;
+  left: 3px;
+  background-color: #ffa217;
+  border-radius: 4px;
+  box-shadow: 0px 8px 30px #2ab0901a;
+}
+
+.personal-portfolio .intern-sales-wrapper {
+  top: 166px;
+  left: 3px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .work-name-here-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 94px;
+  left: 66px;
+}
+
+.personal-portfolio .tag {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 27px;
+  left: 3px;
+  background-color: #fff6e8;
+  border-radius: 60px;
+}
+
+.personal-portfolio .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffa217;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .mask-group-2 {
+  left: 450px;
+  position: absolute;
+  width: 445px;
+  height: 300px;
+  top: 0;
+}
+
+.personal-portfolio .image {
+  top: 71px;
+  left: 0;
+  position: absolute;
+  width: 53px;
+  height: 73px;
+  object-fit: cover;
+}
+
+.personal-portfolio .group-2 {
+  position: absolute;
+  width: 929px;
+  height: 300px;
+  top: 1342px;
+  left: 208px;
+}
+
+.personal-portfolio .call-to-action-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 245px;
+  left: 476px;
+  background-color: #000aff;
+  border-radius: 4px;
+  box-shadow: 0px 8px 30px #000aff1a;
+}
+
+.personal-portfolio .intro-text-2 {
+  top: 166px;
+  left: 476px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .work-name-here-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 95px;
+  left: 542px;
+}
+
+.personal-portfolio .tag-2 {
+  left: 476px;
+  background-color: #d0e5ff;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 27px;
+  border-radius: 60px;
+}
+
+.personal-portfolio .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #000aff;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .image-2 {
+  top: 72px;
+  left: 473px;
+  position: absolute;
+  width: 53px;
+  height: 73px;
+  object-fit: cover;
+}
+
+.personal-portfolio .group-3 {
+  position: absolute;
+  width: 892px;
+  height: 300px;
+  top: 1722px;
+  left: 208px;
+}
+
+.personal-portfolio .call-to-action-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 245px;
+  left: 0;
+  background-color: #2ab090;
+  border-radius: 4px;
+  box-shadow: 0px 8px 30px #2ab0901a;
+}
+
+.personal-portfolio .intro-text-3 {
+  top: 165px;
+  left: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .PT-technology-supply-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 80px;
+  left: 73px;
+}
+
+.personal-portfolio .PT-technology-supply {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .tag-3 {
+  left: 0;
+  background-color: #e0fff7;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 27px;
+  border-radius: 60px;
+}
+
+.personal-portfolio .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #29b090;
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .mask-group-3 {
+  left: 447px;
+  position: absolute;
+  width: 445px;
+  height: 300px;
+  top: 0;
+}
+
+.personal-portfolio .image-3 {
+  top: 63px;
+  left: 0;
+  position: absolute;
+  width: 53px;
+  height: 73px;
+  object-fit: cover;
+}
+
+.personal-portfolio .overlap-2 {
+  position: absolute;
+  width: 1280px;
+  height: 804px;
+  top: 2102px;
+  left: 0;
+  background-color: #b8b8b8;
+}
+
+.personal-portfolio .testimoanial-subtext-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 130px;
+  left: 355px;
+}
+
+.personal-portfolio .testimonial-heading-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 80px;
+  left: 536px;
+}
+
+.personal-portfolio .overlap-3 {
+  position: absolute;
+  width: 445px;
+  height: 245px;
+  top: 479px;
+  left: 655px;
+}
+
+.personal-portfolio .testimonial {
+  position: absolute;
+  width: 445px;
+  height: 212px;
+  top: 33px;
+  left: 0;
+  border-radius: 6px;
+}
+
+.personal-portfolio .text-wrapper-11 {
+  position: absolute;
+  width: 360px;
+  top: 29px;
+  left: 30px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .div-wrapper-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 147px;
+  left: 100px;
+}
+
+.personal-portfolio .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Raleway-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .client-photo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 132px;
+  left: 30px;
+}
+
+.personal-portfolio .text-wrapper-13 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-family: "Raleway-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 100px;
+  letter-spacing: 1.00px;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.personal-portfolio .overlap-4 {
+  position: absolute;
+  width: 445px;
+  height: 245px;
+  top: 479px;
+  left: 180px;
+}
+
+.personal-portfolio .text-wrapper-14 {
+  position: absolute;
+  width: 409px;
+  top: 29px;
+  left: 30px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .overlap-5 {
+  position: absolute;
+  width: 445px;
+  height: 245px;
+  top: 205px;
+  left: 655px;
+}
+
+.personal-portfolio .overlap-6 {
+  position: absolute;
+  width: 445px;
+  height: 245px;
+  top: 205px;
+  left: 180px;
+}
+
+.personal-portfolio .overlap-7 {
+  position: absolute;
+  width: 1280px;
+  height: 708px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/rectangle-12.png);
+  background-size: 100% 100%;
+}
+
+.personal-portfolio .group-4 {
+  position: absolute;
+  width: 492px;
+  height: 314px;
+  top: 165px;
+  left: 180px;
+}
+
+.personal-portfolio .heading {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.personal-portfolio .your-name-here-3 {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.personal-portfolio .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Raleway-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .intro-text-4 {
+  top: 95px;
+  left: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+}
+
+.personal-portfolio .text-wrapper-16 {
+  position: relative;
+  width: 492px;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .call-to-action-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 21px 64px;
+  position: absolute;
+  top: 251px;
+  left: 0;
+  background-color: #a6a6a6;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ffffff;
+  box-shadow: 0px 8px 30px #3f8e0080;
+}
+
+.personal-portfolio .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.personal-portfolio .photo-here {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 152px;
+  left: 750px;
+}
+
+.personal-portfolio .top-menu-wrapper {
+  position: absolute;
+  width: 1110px;
+  height: 70px;
+  top: 2px;
+  left: 85px;
+  background-color: #6e6e6e;
+}
+
+.personal-portfolio .top-menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 70px;
+  position: relative;
+  top: 26px;
+  left: 145px;
+}
+
+.personal-portfolio .div-wrapper-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.personal-portfolio .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "IBM Plex Mono-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .overlap-group-wrapper {
+  position: absolute;
+  width: 928px;
+  height: 54px;
+  top: 589px;
+  left: 180px;
+}
+
+.personal-portfolio .overlap-group-2 {
+  position: relative;
+  width: 920px;
+  height: 54px;
+  background-color: #121212;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #1b1b1b;
+}
+
+.personal-portfolio .linked-in {
+  position: absolute;
+  width: 24px;
+  height: 26px;
+  top: 10px;
+  left: 42px;
+}
+
+.personal-portfolio .overlap-8 {
+  position: absolute;
+  width: 235px;
+  height: 32px;
+  top: 11px;
+  left: 86px;
+}
+
+.personal-portfolio .text-wrapper-19 {
+  position: absolute;
+  width: 229px;
+  top: 4px;
+  left: 0;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+  text-decoration: underline;
+}
+
+.personal-portfolio .group-5 {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  top: 0;
+  left: 201px;
+  background-image: url(./img/negative.svg);
+  background-size: 100% 100%;
+}
+
+.personal-portfolio .overlap-9 {
+  position: absolute;
+  width: 561px;
+  height: 32px;
+  top: 11px;
+  left: 340px;
+}
+
+.personal-portfolio .text-wrapper-20 {
+  position: absolute;
+  width: 229px;
+  top: 4px;
+  left: 0;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .text-wrapper-21 {
+  position: absolute;
+  width: 229px;
+  top: 4px;
+  left: 332px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+}
+
+.personal-portfolio .text-wrapper-22 {
+  position: absolute;
+  width: 229px;
+  top: 4px;
+  left: 176px;
+  font-family: "IBM Plex Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  line-height: Truepx;
+  text-decoration: underline;
+}
+
+.personal-portfolio .social-icons-github {
+  position: absolute;
+  width: 35px;
+  height: 32px;
+  top: 0;
+  left: 129px;
+}
+
+.personal-portfolio .social-icons-google {
+  position: absolute;
+  width: 36px;
+  height: 32px;
+  top: 0;
+  left: 282px;
+}
