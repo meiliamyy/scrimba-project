@@ -69,8 +69,7 @@ nav ul a:hover {
 
 .cover-content {
     flex: 3;
-    padding:20px; 
-    
+    padding: 7%
 } 
 
 .cover-content h1 {
@@ -119,4 +118,11 @@ aside img.cover-foto {
     margin-top: 2rem;
     text-align: center;
     color: white;
+}
+
+.logo-1 {
+    width: 24px; /* Adjust size to your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Add space between the image and the text */
+    vertical-align: middle; /* Aligns the image vertically with the text */
 }

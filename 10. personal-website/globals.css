@@ -18,15 +18,15 @@ a {
 }
 
 .cover-content, .cover-container {
-  opacity: 0;
-  animation: fadeIn 1s forwards;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
 }
 
 @keyframes fadeIn {
-  from {
+    from {
       opacity: 0;
-  }
-  to {
+    }
+    to {
       opacity: 1;
-  }
+    }
 }

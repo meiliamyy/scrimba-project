@@ -19,7 +19,7 @@
         opacity: 0;
     }
     to {
-        opacity: 1;
+        opacity:go 1;
     }
 }
 
