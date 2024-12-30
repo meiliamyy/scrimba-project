@@ -1,6 +1,7 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js"
-import { getDataBase } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js"
+import { getDataBase,
+    ref } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js"
 
 const firebaseConfig = {
     databaseURl: "https://leads-tracker-app-78cdb-default-rtdb.asia-southeast1.firebasedatabase.app/"
@@ -9,6 +10,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 
 const database = getDataBase(app)
+const referenceInDB = ref(database, "leads")
 
 let myLeads = []
 const inputEl = document.getElementById("input-el")
@@ -30,12 +32,13 @@ deleteBtn.addEventListener("dblclick", function() {
 })
 
 inputBtn.addEventListener("click", function() {
+    push(referenceInDB, inputEl.value)
     myLeads.push(inputEl.value)
-    // console.log("Button clicked from addEventListerner")
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderLeads()
 })
+
 
 
 function renderLeads() {
@@ -51,7 +54,12 @@ function renderLeads() {
         `
     }
     ulEl.innerHTML = listItems
-}
+
+onValue(referenceInDB, function(snapshot) {
+    })
+const snapshotValues = snapshot.val()
+
+const leads = Object.values() 
 
 const tabs  = [
     {url: "https://www.instagram.com"}
