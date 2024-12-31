@@ -1,15 +1,17 @@
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js"
-import { getDataBase,
-    ref } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js"
+import { getDatabase,
+    ref,
+    push,
+    onValue,
+    remove } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js"
 
 const firebaseConfig = {
-    databaseURl: "https://leads-tracker-app-78cdb-default-rtdb.asia-southeast1.firebasedatabase.app/"
-}
+    databaseURL: "https://leads-tracker-app-78cdb-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    };
 
 const app = initializeApp(firebaseConfig)
-
-const database = getDataBase(app)
+const database = getDatabase(app)
 const referenceInDB = ref(database, "leads")
 
 let myLeads = []
@@ -26,9 +28,8 @@ if (leadsFromLocalStorage) {
 }
 
 deleteBtn.addEventListener("dblclick", function() {
-    localStorage.clear()
-    myLeads = []
-    renderLeads()
+   remove(referenceInDB)
+   ulEl.innerHTML = ""
 })
 
 inputBtn.addEventListener("click", function() {
@@ -38,7 +39,6 @@ inputBtn.addEventListener("click", function() {
     localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderLeads()
 })
-
 
 
 function renderLeads() {
@@ -54,16 +54,22 @@ function renderLeads() {
         `
     }
     ulEl.innerHTML = listItems
+    }
+    
 
 onValue(referenceInDB, function(snapshot) {
-    })
-const snapshotValues = snapshot.val()
+    const snapshotDoesExist = snapshot.exist()
+    if (snapshotDoesExist) {
+        const snapshotValues = snapshot.val()
+        const leads = Object.values(snapshotValues) 
+        render(leads)
+    } 
+})
 
-const leads = Object.values() 
 
-const tabs  = [
-    {url: "https://www.instagram.com"}
-]
+// const tabs  = [
+//     {url: "https://www.instagram.com"}
+// ]
 
 
 tabBtn.addEventListener("click", function(){
@@ -72,7 +78,6 @@ tabBtn.addEventListener("click", function(){
         // the return variable should only have one entry
         let activeTab = tabs[0]
         let activeTabId = activeTab.id // or do whatever you need
-
     })
     
     myLeads.push(tabs[0].url)
@@ -80,8 +85,6 @@ tabBtn.addEventListener("click", function(){
     render(myLeads)
     
 })
-
-
 
 
 
