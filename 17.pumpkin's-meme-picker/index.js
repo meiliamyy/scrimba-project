@@ -5,10 +5,16 @@ const getImageBtn = document.getElementById("get-image-btn");
 const gifsOnlyOption = document.getElementById("gifs-only-option");
 const memeModalInner = document.getElementById("meme-modal-inner");
 const memeModal = document.getElementById("meme-modal");
+const memeModalCloseBtn = document.getElementById("meme-modal-close-btn");
 
 emotionRadios.addEventListener("change", highlightCheckedOption);
 
 getImageBtn.addEventListener("click", renderCat);
+memeModalCloseBtn.addEventListener("click", closeModal);
+
+function closeModal() {
+  memeModal.style.display = "none";
+}
 
 function highlightCheckedOption(e) {
   const radios = document.getElementsByClassName("radio");
@@ -36,18 +42,23 @@ function getMatchingCatsArray() {
 }
 
 function getSingleCatObject() {
+  let result = 0;
   const catsArray = getMatchingCatsArray();
   if (catsArray.length === 1) {
+    result = catsArray[0];
   } else {
     const randomNumber = Math.floor(Math.random() * catsArray.length);
+    result = catsArray[randomNumber];
   }
+
+  return result;
 }
 function renderCat() {
   const catObject = getSingleCatObject();
   memeModalInner.innerHTML = `
   <img 
     class="cat-img" 
-    src="./images/CAT IMAGE"
+    src="./images/${catObject.image}"
     alt="${catObject.alt}"
     >`;
 
