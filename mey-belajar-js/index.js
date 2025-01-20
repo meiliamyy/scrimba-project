@@ -45,3 +45,11 @@ alatDapur = ["pisau", "kompor", "wajan", "sodet", "panci"];
 for (let i = 0; i < alatDapur.length; i++) {
   console.log(alatDapur[i]);
 }
+
+//buat function luas trapesium
+function luasTrapesium(a, b, t) {
+  luas = 0.5 * (a + b) * t;
+  return luas;
+}
+hasil = luasTrapesium(2, 4, 6);
+console.log(hasil);
