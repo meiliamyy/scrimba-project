@@ -53,3 +53,10 @@ function luasTrapesium(a, b, t) {
 }
 hasil = luasTrapesium(2, 4, 6);
 console.log(hasil);
+
+function luasSegitiga(a, t) {
+  luas = 0.5 * a * t;
+  return luas;
+}
+hasil = luasSegitiga(2, 3);
+console.log(hasil);
