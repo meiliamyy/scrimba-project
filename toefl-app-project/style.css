@@ -1,0 +1,173 @@
+@media (max-width: 480px) {
+  .login-container {
+    padding: 15px 20px;
+  }
+
+  .login-container h1 {
+    font-size: 1.5em;
+  }
+
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .login-container .sign-in-btn {
+    font-size: 0.9em;
+    padding: 8px;
+  }
+
+  .login-container .social-login button {
+    padding: 8px;
+  }
+
+  .login-container .social-login img {
+    width: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-container h1 {
+    font-size: 1.6em;
+  }
+
+  .login-container .social-login button {
+    padding: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+.login-container {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-container .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.login-container .header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.login-container h1 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.login-container input[type="email"]:focus,
+.login-container input[type="password"]:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.login-container a {
+  text-decoration: none;
+  color: #00b7ff;
+  font-size: 0.85em;
+  margin-bottom: 15px;
+}
+
+.login-container .sign-in-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container .sign-in-btn:hover {
+  background: #777;
+}
+
+.login-container .alt-login {
+  text-align: center;
+  margin: 20px 0;
+  color: #777;
+}
+
+.login-container .social-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-container .social-login button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.login-container .social-login button:hover {
+  transform: scale(1.1);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.85em;
+}
+
+.register-link a {
+  color: #00b7ff;
+  font-size: 0.85em;
+}
