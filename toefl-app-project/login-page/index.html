@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/toefl-app-project/login page/TOEFL TEST favicon.png" alt="TOEFL FAVICON" />
+    <title>TOEFL Test App</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="header">
+        <img class="toefl-logo" src="TOEFL TEST.svg" alt="toefl-logo" />
+        <h1>TOEFL TEST</h1>
+      </div>
+
+      <!-- Tabs for Admin and User Login -->
+      <div class="login-tabs">
+        <button id="user-tab" class="active" onclick="showLogin('user')">User Login</button>
+        <button id="admin-tab" onclick="showLogin('admin')">Admin Login</button>
+      </div>
+
+      <!-- User Login Form -->
+      <form id="user-login" class="login-form active" action="#" method="post">
+        <label for="user-email">Email</label>
+        <input type="email" id="user-email" name="email" placeholder="user@example.com" required />
+        <label for="user-password">Password</label>
+        <input type="password" id="user-password" name="password" placeholder="Password" required />
+        <a href="#">Forgot Password?</a>
+        <button type="submit" class="sign-in-btn">Sign in</button>
+        <div class="alt-login">or continue with</div>
+        <div class="social-login">
+          <button title="Sign in with Google">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo" width="24" />
+          </button>
+          <button title="Sign in with GitHub">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub Logo" width="24" />
+          </button>
+          <button title="Sign in with Facebook">
+            <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook Logo" width="24" />
+          </button>
+        </div>
+        <div class="register-link">Don’t have an account yet? <a href="#">Register for free</a></div>
+      </form>
+
+      <!-- Admin Login Form -->
+      <form id="admin-login" class="login-form" action="#" method="post">
+        <label for="admin-email">Admin Email</label>
+        <input type="email" id="admin-email" name="email" placeholder="admin@example.com" required />
+        <label for="admin-password">Admin Password</label>
+        <input type="password" id="admin-password" name="password" placeholder="Password" required />
+        <button type="submit" class="sign-in-btn">Sign in as Admin</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
