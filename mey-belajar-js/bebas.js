@@ -5,3 +5,20 @@ function luasSegitiga(a, t) {
 
 hasil = luasSegitiga(2, 3);
 console.log(hasil);
+
+for (let i = 0; i < 5; i++) {
+  temp = "";
+  for (let j = 1; j <= 5; j++) {
+    temp += i + j + "\t";
+  }
+}
+
+function power(base, exponent = 2) {
+  hasil = 1;
+  for (let i = 1; i <= exponent; i++) {
+    hasil = hasil * base;
+  }
+  return hasil;
+}
+
+console.log(power(3, 4));
