@@ -60,6 +60,37 @@ main {
   border-radius: 5px;
   cursor: pointer;
 }
+.directions-card {
+  background-color: white;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.directions-header {
+  background-color: #00695c;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.directions-content {
+  padding: 15px;
+  text-align: left;
+}
+.start-btn {
+  background-color: #00695c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
 footer {
   background: black;
