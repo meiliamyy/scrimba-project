@@ -40,3 +40,21 @@ const jmlVideo = videos.filter((videos) => videos.textContent.includes("JAVASCRI
 const pJmlVideo = document.querySelector(".jumlah-video");
 
 pJmlVideo.textContent = `${jmlVideo} Video`;
+
+// Buat prototype Kendaraan dengan metode klakson().
+
+function Kendaraan() {}
+
+Kendaraan.prototype.klakson = function () {
+  console.log("Tin!!");
+};
+
+// Buat objek Mobil yang mewarisi Kendaraan dan punya properti merk.
+
+function Mobil(merk) {
+  this.merk = merk;
+}
+
+Mobil.prototype = Object.create(Kendaraan.prototype);
+
+// Coba pakai metode klakson() di objek Mobil!
