@@ -149,3 +149,32 @@ let manager1 = new Manager("didil", "divilkom");
 
 pegawai1.kerja();
 manager1.rapat();
+
+// Latihan 2: Buat Class ES6 untuk Animal dan Turunannya
+// Buat class ES6 bernama Animal dengan properti nama dan jenis, serta method speak.
+class animal {
+  constructor(nama, jenis) {
+    this.nama = nama;
+    this.jenis = jenis;
+  }
+
+  speak() {
+    console.log(`${this.nama} bersuara dari jenis ${this.jenis}`);
+  }
+}
+
+// Kemudian, buat class Dog yang mewarisi Animal
+class dog extends animal {
+  constructor(nama, jenis, ras) {
+    super(nama, jenis);
+    this.ras = ras;
+  }
+  // override method speak untuk mencetak suara anjing.
+
+  speak() {
+    console.log(`${this.nama} bersuara dari jenis ${this.jenis} memiliki ras ${this.ras}) berkata: "Guk guk!"`);
+  }
+}
+
+let anjing = new Dog("Buddy", "anjing", "Golden Retriever");
+anjing.speak();
