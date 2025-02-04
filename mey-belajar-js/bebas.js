@@ -22,3 +22,14 @@ function power(base, exponent = 2) {
 }
 
 console.log(power(3, 4));
+
+let person = {
+  name: "mei",
+  age: 22,
+  hobby: "dance",
+};
+
+let { name, ...rest } = person;
+
+console.log(name);
+console.log(rest);
