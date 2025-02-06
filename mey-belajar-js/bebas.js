@@ -33,3 +33,21 @@ let { name, ...rest } = person;
 
 console.log(name);
 console.log(rest);
+
+//promise untuk simulasi login user
+function loginUser(username, password) {
+  return new Promise((resolve, reject) => {
+    let users = { admin: "admin123", user: "password" };
+    setTimeout(() => {
+      if (users[username] && users[username] === password) {
+        resolve(`login sukses, selamat datang ${username}`);
+      } else {
+        reject("login failed");
+      }
+    }, 1000);
+  });
+}
+
+loginUser("admin", "1234")
+  .then((result) => console.log(result))
+  .catch((error) => console.log("error", error));
