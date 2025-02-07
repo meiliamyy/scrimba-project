@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+#weather {
+  font-size: 20px;
+  margin-top: 20px;
+}
