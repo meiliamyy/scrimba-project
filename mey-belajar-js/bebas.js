@@ -51,3 +51,25 @@ function loginUser(username, password) {
 loginUser("admin", "1234")
   .then((result) => console.log(result))
   .catch((error) => console.log("error", error));
+
+const numbers = [3, 6, 9, 12, 15, 18];
+
+// const result = numbers.map((number) => number + 3).filter((number) => number % 4 === 0);
+
+console.log(result);
+
+const scores = [{ score: 10 }, { score: 20 }, { score: 30 }];
+
+const result = scores.reduce((total, item) => total + item.score, 0);
+// console.log(result);
+
+const celsiusTemps = [0, 10, 20, 30];
+
+const celciusToFahrenheit = celsiusTemps.map((celcius) => (celcius * 9) / 5 + 32);
+
+console.log(celciusToFahrenheit);
+
+const mixedData = [12, "hello", null, 34, undefined, "world", 0];
+const dataNumber = mixedData.filter((item) => typeof item === "number");
+
+console.log(dataNumber);
