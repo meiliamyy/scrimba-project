@@ -73,3 +73,16 @@ const mixedData = [12, "hello", null, 34, undefined, "world", 0];
 const dataNumber = mixedData.filter((item) => typeof item === "number");
 
 console.log(dataNumber);
+
+const employees = [
+  { name: "Alice", department: "Engineering", salary: 70000 },
+  { name: "Bob", department: "HR", salary: 50000 },
+  { name: "Charlie", department: "Engineering", salary: 80000 },
+  { name: "David", department: "Marketing", salary: 60000 },
+  { name: "Eve", department: "Engineering", salary: 75000 },
+];
+
+// const result = employees.filter(employee => employee.department === "Engineering" )
+// .map(employee => employee.salary)
+// .reduce((acc, cur) => acc + cur,0)
+// console.log(result)
