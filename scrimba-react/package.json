@@ -7,7 +7,8 @@
     "dev": "vite",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "keywords": [],
   "type": "module",
