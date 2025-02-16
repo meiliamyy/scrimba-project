@@ -1,12 +1,12 @@
-import "./App.css";
+import "./index.css";
 import Header from "../component/Header";
-import Form from "../component/form";
+import Main from "../component/Main";
 
 export default function App() {
   return (
     <>
       <Header />
-      <Form />
+      <Main />
     </>
   );
 }
