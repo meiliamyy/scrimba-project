@@ -3,20 +3,23 @@ import { useState } from "react";
 function Counter() {
   const [count, setCount] = useState(0);
 
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  const decrement = () => {
+    setCount(count - 1);
+  };
+  const multiplyByTwo = () => {
+    setCount(count * 2);
+  };
+
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Counter: {count}</h1>
-      <CounterButtons count={count} setCount={setCount} />
-    </div>
-  );
-}
-
-function CounterButtons({ count, setCount }) {
-  return (
-    <div>
-      <button onClick={() => setCount((prev) => Math.max(prev - 1, 0))}>-</button>
-      <button onClick={() => setCount((prev) => Math.min(prev + 1, 10))}>+</button>
-      <button onClick={() => setCount(0)}>Reset</button> {/* Tambahkan tombol reset */}
+      <button onClick={decrement}>-</button>
+      <button onClick={increment}>+</button>
+      <button onClick={multiplyByTwo}>x 2</button>
     </div>
   );
 }
