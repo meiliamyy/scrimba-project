@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./App.css";
 
 function TodoApp() {
   const [tasks, setTasks] = useState([]);
@@ -22,22 +23,20 @@ function TodoApp() {
   };
 
   return (
-    <div>
+    <>
       <h2>To-Do List</h2>
       <input type="text" value={task} onChange={(e) => setTask(e.target.value)} />
       <button onClick={addTask}>Add</button>
-      <ul>
+      <div>
         {tasks.map((t) => (
-          <li key={t.id} style={{ textDecoration: t.completed ? "line-through" : "none" }}>
-            <span onClick={() => toggleTaskCompletion(t.id)} style={{ cursor: "pointer" }}>
-              {t.text}
-            </span>
+          <div className="styleTask" key={t.id}>
+            <input type="checkbox" checked={t.completed} onChange={() => toggleTaskCompletion(t.id)} />
+            <span style={{ textDecoration: t.completed ? "line-through" : "none" }}>{t.text}</span>
             <button onClick={() => deleteTask(t.id)}>Delete</button>
-          </li>
+          </div>
         ))}
-      </ul>
-    </div>
+      </div>
+    </>
   );
 }
-
 export default TodoApp;
