@@ -1,15 +1,35 @@
 .artist-card {
-  background: #e722e7;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
+  background: linear-gradient(135deg, #e722e7, #ff5cff);
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
   text-align: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 250px;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .artist-photo {
   width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 8px;
+  height: 200px; /* Ukuran seragam */
+  object-fit: cover; /* Menjaga proporsi tanpa distorsi */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #fceff9;
+  margin: 2px 0;
 }

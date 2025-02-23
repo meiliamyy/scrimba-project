@@ -1,0 +1,46 @@
+/* 🔹 Search Input & Button Styling */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 350px;
+  background: #333;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.search-box input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #444;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-box input::placeholder {
+  color: #bbb;
+}
+
+/* 🔹 Search Button */
+.search-box button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+.search-box button:active {
+  background: #004494;
+}
