@@ -1,3 +1,17 @@
+.artist-photo-container {
+  width: 100%;
+  height: 200px; /* Tinggi container konsisten */
+  overflow: hidden; /* Potong bagian gambar yang melebihi container */
+  border-radius: 8px; /* Opsional: agar sudut container dan gambar serasi */
+}
+
+.artist-photo {
+  display: block; /* Pastikan tidak ada spasi inline */
+  width: 100%;
+  height: 100%; /* Gambar mengisi seluruh container */
+  object-fit: cover; /* Menjaga proporsi gambar dan mengisi container */
+}
+
 .artist-card {
   background: linear-gradient(135deg, #e722e7, #ff5cff);
   border: none;
@@ -12,14 +26,6 @@
 .artist-card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.artist-photo {
-  width: 100%;
-  height: 200px; /* Ukuran seragam */
-  object-fit: cover; /* Menjaga proporsi tanpa distorsi */
-  border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 h3 {

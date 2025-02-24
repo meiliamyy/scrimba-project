@@ -5,8 +5,8 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background: #222;
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+  background: #dbdbdb;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -14,17 +14,21 @@ body {
 
 /* Main App container */
 .App {
-  width: 100%;
-  max-width: 1200px;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 0; /* Atur padding sesuai kebutuhan */
+  margin-top: 100px;
 }
 
 /* Header */
+header {
+  margin-bottom: 50px;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -55,13 +59,15 @@ h1 {
 }
 
 /* 🔹 Fix: Ensure grid spans full width */
+
 .grid-container {
   display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  gap: 50px;
   width: 100%;
-  max-width: 1200px;
-  padding: 10px;
+  margin: 0; /* Menghilangkan margin */
+  padding: 0; /* Opsional, atur padding sesuai kebutuhan */
 }
 
 /* 🔹 Responsive Design */
