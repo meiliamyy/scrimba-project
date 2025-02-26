@@ -52,8 +52,10 @@ header h1::after {
 }
 
 .gambar-detail {
+  margin-top: 2rem;
+  margin-left: 4rem;
   width: 40%;
-  height: auto;
+  height: 600px;
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -70,6 +72,7 @@ h2::after {
 .detail-text {
   /* max-width: 40px; */
   text-align: justify;
+  margin-left: 3rem;
 }
 
 h2 {
