@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Detail from "./components/Detail";
-import MyCard from "./components/MyCard";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </Router>
-      <MyCard />
     </>
   );
 }

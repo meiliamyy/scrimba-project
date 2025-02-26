@@ -1,20 +1,75 @@
-/* Detail.css */
+body {
+  background-color: #fff;
+  /* display: flex; */
+  justify-content: center;
+  width: 100%;
+  /* align-items: center; */
+  /* min-height: 100vh; Ensures the body takes at least the full viewport height */
+  /* margin: 0; Removes default margin */
+}
+
+header {
+  /* background-color: #f05c2b; */
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  width: 1800px;
+  margin-bottom: 20px;
+}
 
 .detail-container {
-  max-width: 800px;
+  width: 1800px;
   margin: 0 auto;
+  display: flex;
+  /* justify-content: center; */
   padding: 20px;
   text-align: center;
-  background-color: #fff;
+  background-color: #a38a8a;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.header-recipe {
+  /* Text styling */
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  margin: 0px;
+  /* Positioning for the underline */
+  position: relative;
+  display: inline-block; /*ensures ::after is aligned with text width */
+}
+
+header h1::after {
+  content: "";
+  display: block;
+  width: 10rem; /* adjust width to your preference */
+  height: 0.8rem; /* thickness of the line */
+  background-color: #f05c2b; /* orange color */
+  margin-top: 4px; /* spacing between text and the line */
 }
 
 .gambar-detail {
-  width: 100%;
+  width: 40%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 25rem; /* adjust width to your preference */
+  height: 0.2rem; /* thickness of the line */
+  background-color: #f05c2b; /* orange color */
+  margin-top: 4px; /* spacing between text and the line */
+}
+
+.detail-text {
+  /* max-width: 40px; */
+  text-align: justify;
 }
 
 h2 {

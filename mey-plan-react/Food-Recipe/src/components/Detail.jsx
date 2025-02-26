@@ -12,23 +12,30 @@ function Detail() {
   }
 
   return (
-    <div className="detail-container">
-      <img src={resep.gambar} alt={resep.nama} className="gambar-detail" />
-      <h2>{resep.nama}</h2>
-      <h3>Bahan-bahan:</h3>
-      <ul>
-        {resep.bahan.map((bahan, index) => (
-          <li key={index}>{bahan}</li>
-        ))}
-      </ul>
-      <h3>Cara Membuat:</h3>
-      <ol>
-        {resep.cara.map((langkah, index) => (
-          <li key={index}>{langkah}</li>
-        ))}
-      </ol>
-      <button onClick={() => navigate("/")}>Kembali ke Halaman Utama</button>
-    </div>
+    <>
+      <header>
+        <h1 className="header-recipe">meal recipe</h1>
+      </header>
+      <div className="detail-container">
+        <img src={resep.gambar} alt={resep.nama} className="gambar-detail" />
+        <div className="detail-text">
+          <h2>{resep.nama}</h2>
+          <h3>Bahan-bahan:</h3>
+          <ul>
+            {resep.bahan.map((bahan, index) => (
+              <li key={index}>{bahan}</li>
+            ))}
+          </ul>
+          <h3>Cara Membuat:</h3>
+          <ol>
+            {resep.cara.map((langkah, index) => (
+              <li key={index}>{langkah}</li>
+            ))}
+          </ol>
+          <button onClick={() => navigate("/")}>Kembali ke Halaman Utama</button>
+        </div>
+      </div>
+    </>
   );
 }
 
