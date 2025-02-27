@@ -99,7 +99,7 @@ li {
   margin-bottom: 8px;
 }
 
-button {
+.detail-button {
   padding: 10px 20px;
   background-color: #f04;
   border: none;
@@ -110,6 +110,6 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.detail-button:hover {
   background-color: #c03;
 }

@@ -32,7 +32,9 @@ function Detail() {
               <li key={index}>{langkah}</li>
             ))}
           </ol>
-          <button onClick={() => navigate("/")}>Kembali ke Halaman Utama</button>
+          <button className="detail-button" onClick={() => navigate("/")}>
+            Kembali ke Halaman Utama
+          </button>
         </div>
       </div>
     </>

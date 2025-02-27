@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./components/Main";
+import Dashboard from "./components/Dashboard";
 import Detail from "./components/Detail";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </Router>
