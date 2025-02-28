@@ -3,7 +3,7 @@ import gambar1 from "../assets/gambar-pasta.jpg";
 const resepData = [
   {
     id: 1,
-    nama: "Nasi Goreng",
+    nama: "Fectune Carbonara 🥢🍝",
     kategori: "Makanan Utama",
     gambar: gambar1,
     bahan: ["Nasi", "Telur", "Bawang", "Kecap", "Cabai"],
