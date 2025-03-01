@@ -37,6 +37,9 @@ function Detail() {
           </button>
         </div>
       </div>
+      <footer className="footer">
+        <p>&copy; 2025 Meilia Recipe Collection. All rights reserved.</p>
+      </footer>
     </>
   );
 }
