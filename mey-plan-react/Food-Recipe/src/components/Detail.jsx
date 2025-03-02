@@ -14,7 +14,7 @@ function Detail() {
   return (
     <>
       <header>
-        <h1 className="header-recipe">meal recipe</h1>
+        <h1 className="header-recipe">Meilia recipe</h1>
       </header>
       <div className="detail-container">
         <img src={resep.gambar} alt={resep.nama} className="gambar-detail" />

@@ -24,7 +24,7 @@ header {
   /* justify-content: center; */
   padding: 20px;
   text-align: center;
-  background-color: #a38a8a;
+  background-color: #ffffff;
   border-radius: 8px;
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
 }
@@ -47,7 +47,7 @@ header h1::after {
   display: block;
   width: 10rem; /* adjust width to your preference */
   height: 0.8rem; /* thickness of the line */
-  background-color: #f05c2b; /* orange color */
+  background-color: #ff0095; /* orange color */
   margin-top: 4px; /* spacing between text and the line */
 }
 
@@ -65,7 +65,7 @@ h2::after {
   display: block;
   width: 25rem; /* adjust width to your preference */
   height: 0.2rem; /* thickness of the line */
-  background-color: #f05c2b; /* orange color */
+  background-color: #ff0095; /* orange color */
   margin-top: 4px; /* spacing between text and the line */
 }
 
@@ -101,7 +101,7 @@ li {
 
 .detail-button {
   padding: 10px 20px;
-  background-color: #f04;
+  background-color: #ff0095;
   border: none;
   color: #fff;
   font-size: 1em;
@@ -111,5 +111,5 @@ li {
 }
 
 .detail-button:hover {
-  background-color: #c03;
+  background: linear-gradient(300deg, hsl(321, 100%, 86%), hsl(335, 92%, 85%));
 }
