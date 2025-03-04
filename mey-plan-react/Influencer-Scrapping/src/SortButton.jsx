@@ -1,4 +1,3 @@
-import React from "react";
 import "./SortButton.css";
 
 const SortButtons = ({ onSortPositive, onSortNegative }) => {
